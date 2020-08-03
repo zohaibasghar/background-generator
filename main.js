@@ -1,1 +1,1 @@
-console.log('this site is synced with git')
+console.log('this site is synced with git');
