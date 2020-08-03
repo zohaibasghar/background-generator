@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    background: linear-gradient(to right,red ,yellow);
 }
 .color1{
     background: lightcoral;
@@ -12,3 +13,4 @@ body{
     background: darkcyan;
     color: white;
 }
+
