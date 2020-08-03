@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: monospace;
     background: linear-gradient(to right,red ,yellow);
+    text-align: center;
 }
 .color1{
     background: lightcoral;
@@ -14,3 +15,12 @@ body{
     color: white;
 }
 
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
