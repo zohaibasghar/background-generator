@@ -1,12 +1,12 @@
 var css=document.querySelector('h3');
-var clr1=document.querySelector('.color1');
-var clr2=document.querySelector('.color2');
-var body=document.querySelector('body');
+var color1=document.querySelector('.color1');
+var color2=document.querySelector('.color2');
+var bod=document.getElementById('gradient');
 
 function set(){
-    body.style.background=
-    'linear-gradient(to right(,'+clr1.value+','+clr2.value+')';
-    css.textContent=body.style.background
+    bod.style.background='linear-gradient(to right,'+color1.value+','+color2.value+')';
 }
-clr1.addEventListener('input',set());
-clr2.addEventListener('input',set());
+color1.addEventListener('input',set());
+color2.addEventListener('input',set());
+// console.log('background');
+// console.clear();
